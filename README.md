@@ -1,4 +1,4 @@
-# shailesh_331829
+# whether simulation project
 
 this project is used to simulate whether data 
 at the entry point of the program it will ask for fallowing inputs:
