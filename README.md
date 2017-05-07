@@ -1,5 +1,9 @@
 # whether simulation project
 
+to run-->WhetherSimulationEngine.java  main method is 
+entry point to simulation engine
+
+
 this project is used to simulate whether data 
 at the entry point of the program it will ask for fallowing inputs:
 1)no of records to generate 
@@ -52,5 +56,5 @@ Condition --> condition can be determine as sunny,rain  and snow on behalf press
 
 
 
-WhetherSimulationEngine.java class main method is 
+WhetherSimulationEngine.java  main method is 
 entry point to simulation engine
