@@ -1,4 +1,4 @@
-# weather simulation project
+# Weather Simulation Project
 
 to run-->WeatherSimulationEngine.java  main method is entry point to simulation engine
 
