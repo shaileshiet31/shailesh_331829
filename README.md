@@ -12,7 +12,7 @@ This project is used to simulate Weather data at the entry point of the program 
 
 4)file path-->to genrate the results to particular file.
 
-output format:location(latitude,longitude,altitude)|datetime|condition|temperature|pressure|humidity
+output format:-->location(latitude,longitude,altitude)|datetime|condition|temperature|pressure|humidity
 
 output generation alogorithms
 
