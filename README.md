@@ -32,15 +32,11 @@ tempereture-->
 		For locations below 20°N: Temperature = 80°F.
 		For locations between 20°N and 60°N: Temperature = -0.988 *(latitude) + 96.827°F.
 		
-	b)the tempreture result from step 'a' will be then anlaysed by tempreture intensity by months 
-	   The summer months are April through September (April,May,June,July,August,Sep) on the Northern Hemisphere (positive latiudes)
-		and the winter months are October through March (Oct,Nov,Dec,Jan,Feb,March), and VICE VERSA for the Southern Hemisphere(negitive latiudes)
-		also the mid months intensity will be more than other months, so every months is having there own intensity level which will be further
-		act old tempreture from step 'a'
-	c)	the tempreture result from step 'a' will be then anlaysed by tempreture intensity by hours
-		 in noon we experience more temperature intensity then in evening and in night the weigtage scores are given for 
-	   all individual hours of a day 
-	   
+	b)The tempreture result from step 'a' will be then anlaysed by tempreture intensity by months ,The summer months are April through September (April,May,June,July,August,Sep) on the Northern Hemisphere (positive latiudes) and the winter months are October through March (Oct,Nov,Dec,Jan,Feb,March), and VICE VERSA for the Southern Hemisphere(negitive latiudes).
+		also the mid months intensity will be more than other months, so every months is having there own intensity level which will be furher	act on old tempreture from step 'a'
+		
+	c)The tempreture result from step 'a' will be then anlaysed by tempreture intensity by hours in noon we experience more temperature intensity then in evening and in night the weigtage scores are given for all individual hours of a day 
+	
 pressure-->pressure at given altitude can be also calculated by below formula
 	   formula for calculation is 
 	   P=P0e^((-mu*g*h)\RT)
@@ -51,17 +47,15 @@ pressure-->pressure at given altitude can be also calculated by below formula
 		h - Height difference, meters
 		R - Universal gas constant for air, 8.31432 N·m /(mol·K)
 		T - Air temperature
+		
 humidity-->random humidity ranging between  5 to 98
-	   I have used humidity as random because relative humidity is calculate by formula rh=p0/P1
-	   where p0 is pressure of atmoshphere where as p1 is dew point pressure which is more calculated 
-	   by scientific measures (eg wet bulb measure test)
+	   I have used humidity as random because relative humidity is calculate by formula rh=p0/P1  where p0 is pressure of atmoshphere where as p1 is dew point pressure which is more calculated  by scientific measures (eg wet bulb measure test).
 Condition --> condition can be determine as sunny,rain  and snow on behalf pressure, temperature,humidity,alititude as all factors
 	 *  snow->it is assumed that altitudes with higher values , less pressure and less temperature can cause of snow
+	 
 	 * rain->with high humidity,moderate range of altitudes and mild temperature
+	 
 	 * sunny-->else all conditions
-
-
-
-
+	 
 WeatherSimulationEngine.java  main method is 
 entry point to simulation engine
