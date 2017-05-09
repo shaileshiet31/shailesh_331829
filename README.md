@@ -21,13 +21,17 @@ latitude-->+-10 range of random latitudes lower and upper range will be created 
 longitude-->+-10 range of random longitudes lower and upper range will be created on behalf of entered longitude
 
 altitude-->random value from a range of 2 to 200 will be picked
+
 date-->any random date from a range of current date to past 3 years can be picked 
+
 tempereture-->
 	a)tempreture of any place is affected by its latitude and altitude there is a temperature relationship between latitude and altitude for more details  visit http://webinquiry.org/examples/temps/
+	
 		Temperature relation ship with altitude -->Temperature = -0.0026* (Elevation in feet) 
 		Temperature relation ship with latitude -->
 		For locations below 20°N: Temperature = 80°F.
 		For locations between 20°N and 60°N: Temperature = -0.988 *(latitude) + 96.827°F.
+		
 	b)the tempreture result from step 'a' will be then anlaysed by tempreture intensity by months 
 	   The summer months are April through September (April,May,June,July,August,Sep) on the Northern Hemisphere (positive latiudes)
 		and the winter months are October through March (Oct,Nov,Dec,Jan,Feb,March), and VICE VERSA for the Southern Hemisphere(negitive latiudes)
