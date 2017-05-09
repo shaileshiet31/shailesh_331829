@@ -2,13 +2,14 @@
 
 to run-->WeatherSimulationEngine.java  main method is entry point to simulation engine
 
-this project is used to simulate Weather data 
-
-at the entry point of the program it will ask for fallowing inputs:
+This project is used to simulate Weather data at the entry point of the program it will ask for fallowing inputs:
 
 1)no of records to generate 
+
 2)latitude-->+-10 range of random latitudes lower and upper range will be created on behalf of entered latitude
+
 3)longitude-->+-10 range of random longitudes lower and upper range will be created on behalf of entered longitude
+
 4)file path-->to genrate the results to particular file.
 
 output format:location(latitude,longitude,altitude)|datetime|condition|temperature|pressure|humidity
